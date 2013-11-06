@@ -1,3 +1,11 @@
+การติดตั้ง Laravel 
+- http://laravel.com/docs/installation
+
+ต้องลง composer ก่อน เพื่อจะดึง จะถอด หรือ ถอน package ต่างๆ จนกระทั่ง download Laravel
+-http://getcomposer.org/ 
+
+
+
 ## Laravel PHP Framework
 
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework)
