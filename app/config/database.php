@@ -62,10 +62,10 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'icms',
+			'database'  => 'websitetha_icm',
 			'username'  => 'websitetha_icm',
-			'password'  => 'websitetha_icm',
-			'charset'   => 'karawasinaja28',
+			'password'  => 'karawasinaja28',
+			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 		),

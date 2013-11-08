@@ -1,8 +1,19 @@
-การติดตั้ง Laravel 
-- http://laravel.com/docs/installation
+Laravel โหลดมาแล้วทำไงต่อ
+จะทดสอบยังไง
+จะทดลอง CRUD ยังไง 
 
-ต้องลง composer ก่อน เพื่อจะดึง จะถอด หรือ ถอน package ต่างๆ จนกระทั่ง download Laravel
--http://getcomposer.org/ 
+*CRUD => http://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+
+iCMS เลยทำตัวอย่างการเริ่มต้นกับ Laravel มาให้ดูเป็นตัวอย่าง
+เผื่อ เพื่อๆ ชาว Developer, Programmer ใช้เป็นแนวทางในการทำงาน หรือทำความเข้าใจ
+ที่เขียนมาไม่ได้วิเศษเลอเลิศ เขียน MVC ปกติ
+ไว้โอกาสหน้า จะเขียนเป็น Design Pattern แบบอื่นๆ ไว้เป็นแนวทาง
+
+การติดตั้ง 
+- Download Git มาลงเครื่องก่อน http://git-scm.com/downloads
+- เมื่อลงแล้ว เปิดโปรแกรมขึ้นมา แล้วเข้าไปใน folder ที่จะสร้าง เว็บ เช่น d:/xampp/htdocs/  แล้วเริ่มกันเลย
+http://laravel.com/docs/installation
+
 
 
 

@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/', function()
+{
+  return Redirect::route('news.index');
+});
 
 Route::get('news', array('as'=>'news.index', 'uses'=>'NewsController@Index'));
 Route::get('news/show/{id?}', array('as'=>'news.show', 'uses'=>'NewsController@show'));
@@ -20,15 +24,20 @@ Route::get('news/destroy/{id?}', array('as'=>'news.destroy', 'uses'=>'NewsContro
 Route::post('news/store', array('as'=>'news.store', 'uses'=>'NewsController@store'));
 Route::post('news/update/{id?}', array('as'=>'news.update', 'uses'=>'NewsController@update'));
 
+# Route for login form
+Route::get('login', array('uses' => 'HomeController@showLogin'));
 
-Route::get('cache', function(){
-  Cache::put('key', 'value', 1979);
-  phpinfo();
-});
+# Route for process the form
+Route::post('login', array('uses'=>'HomeController@doLogin'));
+
+// Route::get('cache', function(){
+//   Cache::put('key', 'value', 1979);
+//   phpinfo();
+// });
 
 
-Route::get('/', function()
-{
-  return View::make('hello');
+// Route::get('/', function()
+// {
+//   return View::make('hello');
 
-});
+// });
