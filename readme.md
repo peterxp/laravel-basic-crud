@@ -1,6 +1,27 @@
-Laravel โหลดมาแล้วทำไงต่อ
-จะทดสอบยังไง
-จะทดลอง CRUD ยังไง 
+Laravel ก้าวแรกสำคัญเสมอ
+มีเยอะมากที่เขียน แสดงว่าดีโน่นนี่นั่น
+บางเจ้าก็แปลมาห้วนๆ ไม่รู้ความหมายลึกซึ้ง
+อืมมือใหม่ที่จะก้าวเข้ามาเลย เซงงงงงงงงงงง
+
+อ่านคู่มือก็พอเข้าใจ แต่พอจะเอาเข้าจริง เอิ่มจะปะติดปะต่อไงดี 
+
+หากใครอยากดึง sourcecode ผ่าน GIT
+- Download Git มาลงเครื่องก่อน http://git-scm.com/downloads
+- เมื่อลงแล้ว เปิดโปรแกรมขึ้นมา แล้วเข้าไปใน folder ที่จะสร้าง เว็บ เช่น d:/xampp/htdocs/  แล้วเริ่มกันเลย
+$ git init
+$ git clone git@github.com:peterxp/icms.git
+
+ตั้ง Vitual Host ด้วย
+- http://www.unzeen.com/article/1887/
+
+
+หากยังไม่คล่องเรื่อง GIT โหลดเอาธรรมดาก็ได้
+แต่ขอเตือนว่า ระวังการใช้ GIT หากใช้แล้วจะติดใจ
+
+การติดตั้ง Laravel
+http://laravel.com/docs/installation
+
+เรามาลอง CRUD กันดูดีไหม
 
 *CRUD => http://en.wikipedia.org/wiki/Create,_read,_update_and_delete
 
@@ -9,10 +30,7 @@ iCMS เลยทำตัวอย่างการเริ่มต้นก
 ที่เขียนมาไม่ได้วิเศษเลอเลิศ เขียน MVC ปกติ
 ไว้โอกาสหน้า จะเขียนเป็น Design Pattern แบบอื่นๆ ไว้เป็นแนวทาง
 
-การติดตั้ง 
-- Download Git มาลงเครื่องก่อน http://git-scm.com/downloads
-- เมื่อลงแล้ว เปิดโปรแกรมขึ้นมา แล้วเข้าไปใน folder ที่จะสร้าง เว็บ เช่น d:/xampp/htdocs/  แล้วเริ่มกันเลย
-http://laravel.com/docs/installation
+
 
 
 
