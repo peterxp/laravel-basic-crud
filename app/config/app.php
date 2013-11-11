@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://www.websitemobileapp.com/customer/icms/',
+	'url' => 'http://laravle.dev/',
 
 	/*
 	|--------------------------------------------------------------------------

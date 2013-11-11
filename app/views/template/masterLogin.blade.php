@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>iCMS::Login</title>
+    <title>Basic Laravel::Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {{ HTML::style('vendor/twbs/bootstrap/dist/css/bootstrap.css') }}
