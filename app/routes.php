@@ -17,6 +17,14 @@ Route::get('/', function()
 });
 
 Route::get('news', array('as'=>'news.index', 'uses'=>'NewsController@Index'));
+/*
+  เห็น Route แล้ว เอาไปใช้ทำอะไรได้บ้าง 
+  - news เอาไปทำเรียกใช้งานด้วย method get เช่น your-url/news
+  - news.index เอาไว้เด้งหน้า เด้งหลัง หรือ redirect 
+  - NewsController@Index อธิบายว่า ต่อไปนี้นะ ถ้าคุณเรียก your-url/news ฉันจะไปทำงานที่ Controller ชื่อ NewsController และ method ชื่อ Index 
+    จะสังเกตุได้ว่า controller@method นะสิบอกให่
+*/
+
 Route::get('news/show/{id?}', array('as'=>'news.show', 'uses'=>'NewsController@show'));
 Route::get('news/create', array('as'=>'news.create', 'uses'=>'NewsController@create'));
 Route::get('news/edit/{id?}', array('as'=>'news.edit', 'uses'=>'NewsController@edit'));
@@ -29,15 +37,3 @@ Route::get('login', array('uses' => 'HomeController@showLogin'));
 
 # Route for process the form
 Route::post('login', array('uses'=>'HomeController@doLogin'));
-
-// Route::get('cache', function(){
-//   Cache::put('key', 'value', 1979);
-//   phpinfo();
-// });
-
-
-// Route::get('/', function()
-// {
-//   return View::make('hello');
-
-// });
