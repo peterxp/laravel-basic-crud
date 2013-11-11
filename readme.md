@@ -1,25 +1,39 @@
+
 Laravel ก้าวแรกสำคัญเสมอ 
 
 อ่านคู่มือก็พอเข้าใจ แต่พอจะเอาเข้าจริง เอิ่มจะปะติดปะต่อไงดี
 
 หากใครอยากดึง sourcecode ผ่าน GIT
 
-    Download Git มาลงเครื่องก่อน http://git-scm.com/downloads
-    เมื่อลงแล้ว เปิดโปรแกรมขึ้นมา แล้วเข้าไปใน folder ที่จะสร้าง เว็บ เช่น d:/xampp/htdocs/ แล้วเริ่มกันเลย $ git init $ git clone git@github.com:peterxp/laravel.git
+Download Git มาลงเครื่องก่อน http://git-scm.com/downloads
+    
+เมื่อลงแล้ว เปิดโปรแกรมขึ้นมา แล้วเข้าไปใน folder ที่จะสร้าง เว็บ 
+เช่น d:/xampp/htdocs/ 
+แล้วเริ่มกันเลย $ git init $ 
+git clone git@github.com:peterxp/laravel.git
+
 
 ตั้ง Vitual Host ด้วย
 
-    http://www.unzeen.com/article/1887/
+http://www.unzeen.com/article/1887/
 
-หากยังไม่คล่องเรื่อง GIT โหลดเอาธรรมดาก็ได้ แต่ขอเตือนว่า ระวังการใช้ GIT หากใช้แล้วจะติดใจ
+
+หากยังไม่คล่องเรื่อง GIT โหลดเอาธรรมดาก็ได้ 
+แต่ขอเตือนว่า ระวังการใช้ GIT หากใช้แล้วจะติดใจ
+
+
 
 การติดตั้ง Laravel http://laravel.com/docs/installation
+
 
 เรามาลอง CRUD กันดูดีไหม
 
 *CRUD => http://en.wikipedia.org/wiki/Create,_read,_update_and_delete
 
-Basic Laravel CRUD เลยทำตัวอย่างการเริ่มต้นกับ Laravel มาให้ดูเป็นตัวอย่าง เผื่อ เพื่อๆ ชาว Developer, Programmer ใช้เป็นแนวทางในการทำงาน หรือทำความเข้าใจ
+Basic 
+
+Laravel CRUD เลยทำตัวอย่างการเริ่มต้นกับ Laravel มาให้ดูเป็นตัวอย่าง 
+เพื่อๆ ชาว Developer, Programmer ใช้เป็นแนวทางในการทำงาน หรือทำความเข้าใจ
 
 
 
