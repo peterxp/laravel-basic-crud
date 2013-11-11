@@ -31,7 +31,10 @@
         </nav>
 
       <div class="col-md-12 panel panel-default">
+
+        <!-- ต่อไปนี้นะ พวกเนื้อหา Dynamic ต่างๆ คือใส้ในของ หน้าต่างๆ จะมาโผลภายไต้ template นี้นะ -->
         @yield('content')
+        
       </div>
   </div>
 
