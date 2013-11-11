@@ -1,4 +1,3 @@
-
 Laravel ก้าวแรกสำคัญเสมอ 
 
 อ่านคู่มือก็พอเข้าใจ แต่พอจะเอาเข้าจริง เอิ่มจะปะติดปะต่อไงดี
@@ -9,7 +8,8 @@ Download Git มาลงเครื่องก่อน http://git-scm.com/do
     
 เมื่อลงแล้ว เปิดโปรแกรมขึ้นมา แล้วเข้าไปใน folder ที่จะสร้าง เว็บ 
 เช่น d:/xampp/htdocs/ 
-แล้วเริ่มกันเลย $ git init $ 
+แล้วเริ่มกันเลย 
+$ git init $ 
 git clone git@github.com:peterxp/laravel.git
 
 
