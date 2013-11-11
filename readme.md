@@ -4,18 +4,19 @@ Laravel ก้าวแรกสำคัญเสมอ
 
 หากใครอยากดึง sourcecode ผ่าน GIT
 
-Download Git มาลงเครื่องก่อน http://git-scm.com/downloads
+    Download Git มาลงเครื่องก่อน http://git-scm.com/downloads
     
 เมื่อลงแล้ว เปิดโปรแกรมขึ้นมา แล้วเข้าไปใน folder ที่จะสร้าง เว็บ 
+
 เช่น d:/xampp/htdocs/ 
-แล้วเริ่มกันเลย 
-$ git init $ 
+
+แล้วเริ่มกันเลย $ git init $ 
 git clone git@github.com:peterxp/laravel.git
 
 
 ตั้ง Vitual Host ด้วย
 
-http://www.unzeen.com/article/1887/
+    http://www.unzeen.com/article/1887/
 
 
 หากยังไม่คล่องเรื่อง GIT โหลดเอาธรรมดาก็ได้ 
